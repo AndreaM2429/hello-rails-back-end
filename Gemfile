@@ -64,3 +64,5 @@ group :test do
 end
 
 gem 'rswag'
+
+gem 'rack-cors'
