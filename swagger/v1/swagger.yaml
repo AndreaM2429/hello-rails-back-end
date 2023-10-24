@@ -1,0 +1,29 @@
+---
+openapi: 3.0.1
+info:
+  title: Get a random greeting API
+  version: v1
+paths:
+  "/api/greetings":
+    get:
+      summary: Return a random greeting
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  text:
+                    type: string
+                required:
+                - id
+                - text
+servers:
+- url: http://localhost:3000
+  variables:
+    defaultHost:
+      default: localhost:3000
