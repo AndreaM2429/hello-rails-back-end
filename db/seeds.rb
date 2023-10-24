@@ -1,9 +1,10 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+Greeting.create(text: 'Hey there, have a day full of joy!')
+Greeting.create(text: 'Enjoy your day to the fullest and savor every moment.')
+Greeting.create(text: 'Hi, wishing you a day full of positive energy!')
+Greeting.create(text: 'Wishing you a wonderful day filled with happiness.')
+Greeting.create(text: "It's a new day, make it a fantastic one!")
+Greeting.create(text: 'Good morning! I hope your day is wonderful.')
+Greeting.create(text: 'Wishing you a wonderful and productive day.')
+Greeting.create(text: 'Make it a fantastic day by being your amazing self.')
+Greeting.create(text: 'May your day be filled with joy and all your dreams come true.')
+Greeting.create(text: 'Wishing you a day filled with success and achievements.')
