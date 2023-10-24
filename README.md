@@ -29,7 +29,7 @@
 
 **Rails Back-End App** is an sample app that use RoR as a backend throw an API that returns a random greeting. 
 
-The front end of the app was build with Reacr&Reux app in a separate repository, you can find it in [this link](https://github.com/AndreaM2429/hello-react-front-end/tree/react-app).
+The front end of the app was build with Reacr&Reux app in a separate repository, you can find it in [this link](https://github.com/AndreaM2429/hello-react-front-end/tree/front-end).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,7 +69,7 @@ The front end of the app was build with Reacr&Reux app in a separate repository,
 
 ### Front-End <a name="front"></a>
 
-You can find the Front-End [here](https://github.com/AndreaM2429/hello-react-front-end/tree/react-app)
+You can find the Front-End [here](https://github.com/AndreaM2429/hello-react-front-end/tree/front-end)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
