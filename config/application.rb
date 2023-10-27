@@ -18,7 +18,7 @@ module HelloRailsBackEnd
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'http://localhost:3001'  # O agrega el dominio de tu aplicación React
+        origins '*'
         resource '*', headers: :any, methods: [:get, :post, :put, :patch, :delete, :options]
       end
     end
